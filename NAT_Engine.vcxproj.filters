@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{88f57228-0c77-4181-b7ac-a44067c9eb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Editor">
+      <UniqueIdentifier>{f15e3bac-f4a4-4bcf-8ff8-94daeea35967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Editor\Core">
+      <UniqueIdentifier>{db597560-fec3-456f-bb36-7887726f5d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Editor">
+      <UniqueIdentifier>{32c86523-0fdb-4111-87e6-8424c8e06915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Editor\Core">
+      <UniqueIdentifier>{6116618a-05dc-4a23-9091-66f04b6637b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine">
+      <UniqueIdentifier>{52eeab03-87e6-49c4-a424-8454105a0cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core">
+      <UniqueIdentifier>{0aaed521-372b-4e13-a376-b271fa37c8f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Debugging">
+      <UniqueIdentifier>{690a3c66-cbfc-466c-a3d3-c412b46bf1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene">
+      <UniqueIdentifier>{7277bb04-1529-475f-b115-39ea89d3e943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components">
+      <UniqueIdentifier>{68f02869-b1f2-42b6-8366-9c19e4596532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Lights">
+      <UniqueIdentifier>{abe85e78-73b0-45ab-83ef-ce008090dbff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Rendering">
+      <UniqueIdentifier>{8cedb242-65c2-4d3c-9183-038d7fd1f4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics">
+      <UniqueIdentifier>{cc33a86b-5b2a-4def-bbcf-333cc1443812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Sounds">
+      <UniqueIdentifier>{4a5ad77f-71da-46f2-afca-f7f79c2fe5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Serialization">
+      <UniqueIdentifier>{884fc253-1e31-421f-872e-b9ddb3d93583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\LowRenderer">
+      <UniqueIdentifier>{1c5e1d06-2ea0-4a3c-bb9f-af28f1b564b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\LowRenderer\Rendering">
+      <UniqueIdentifier>{05249962-7572-4ae5-a1c0-d0c55ee949fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess">
+      <UniqueIdentifier>{3f18f762-2154-4228-b1ae-4bffd6cb3989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Maths">
+      <UniqueIdentifier>{7880d00e-2230-4c17-a8c2-eb7a1c4cbddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Renderer">
+      <UniqueIdentifier>{eeccff13-1d3d-4396-8bff-640937dde970}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\Core\EditorApp.cpp">
+      <Filter>Fichiers sources\NAT_Editor\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NAT_Editor\Main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Core\EditorApp.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Editor\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\RendererShaderProgram.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Default_Resources\Icon\resource.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\App.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\FileManager.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\PRNG.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Signal.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Types.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Debugging\Assert.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Debugging\Log.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\GameObject.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Scene.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\SceneManager.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Transform.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\IComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\RenderModelComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\SkyBoxComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Lights\DirectionalLightComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Lights\ILightComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Lights\PointLightComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Lights\SpotLightComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Rendering\CameraComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Rendering\MirrorComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Rendering\PortalBaseComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Rendering\PortalComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Colliders\CapsuleCollider.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Colliders\CubeCollider.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Colliders\ICollider.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Colliders\MeshCollider.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Colliders\SphereCollider.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\IPhysicalComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\RigibodyComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Sounds\SoundListenerComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Scene\Components\Sounds\SoundPlayerComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Serialization\Conversion.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Serialization\Deserializer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core\Serialization\Serializer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LowRenderer\DepthBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LowRenderer\FrameBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LowRenderer\Rendering\Camera.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LowRenderer\Rendering\FlyingCamera.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LowRenderer\PostProcess\BloomPostProcess.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LowRenderer\PostProcess\BlurPostProcess.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LowRenderer\PostProcess\GammaCorrectionPostProcess.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LowRenderer\PostProcess\PostProcessEffect.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LowRenderer\PostProcess\PostProcessManager.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Maths\Maths.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LowRenderer\RenderPassType.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\IRendererResource.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\RendererBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\RendererDepthBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\RendererFrameBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\RendererImageView.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\RendererMesh.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\RendererPipeline.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\RendererShader.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\RendererShaderProgram.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Default_Resources\Icon\Icon.rc">
+      <Filter>Fichiers de ressources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Headers\Core\Scene\GameObject.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene</Filter>
+    </None>
+    <None Include="Headers\Maths\Maths.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Maths</Filter>
+    </None>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="imgui.ini" />
+    <None Include="makefile" />
+    <None Include="ProjectSettings.bin">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>

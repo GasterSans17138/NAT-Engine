@@ -1,0 +1,1133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine">
+      <UniqueIdentifier>{c5fed9f7-64a3-4e6d-aaa5-907095493c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core">
+      <UniqueIdentifier>{4bddccf2-6d74-4761-ac23-0f344b871bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Debugging">
+      <UniqueIdentifier>{94cbea88-bf2b-452f-b016-f53c98b50eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene">
+      <UniqueIdentifier>{46075d68-4a88-4c90-8fc4-a8a90c966c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components">
+      <UniqueIdentifier>{c7b673b0-4bbe-4724-bd68-b516d4468196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Lights">
+      <UniqueIdentifier>{5c1b9c3a-b49f-4b4e-84a2-f5ad7501b018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Rendering">
+      <UniqueIdentifier>{74fa9cc1-4bc0-49d8-a7a7-d10786aa1de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics">
+      <UniqueIdentifier>{0f1d36de-66aa-4225-9f70-7f15ef946323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\LowRenderer">
+      <UniqueIdentifier>{4d8123a0-c45c-44ee-a180-500080b21b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\LowRenderer\Rendering">
+      <UniqueIdentifier>{22f97782-e44f-4433-8aa4-43de97aad186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess">
+      <UniqueIdentifier>{4cac0665-7a30-4681-92f6-7223b69d74a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Maths">
+      <UniqueIdentifier>{0b11fb66-5c24-49da-bd52-0bb4ee02868f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Renderer">
+      <UniqueIdentifier>{f28951b5-8074-4c77-bd4f-ff9f91eda598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Renderer\Uniform">
+      <UniqueIdentifier>{15bcea94-6020-4261-a293-eb07007c82fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Resources">
+      <UniqueIdentifier>{fb79d67a-205e-4e10-b9bc-afec949af2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Wrappers">
+      <UniqueIdentifier>{499b72bf-ad1d-4e50-9006-9de46916a9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader">
+      <UniqueIdentifier>{419a80b6-693f-4162-9d31-c7b39a769e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp">
+      <UniqueIdentifier>{e4bba904-91d6-42a2-b05f-35673f88fa2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Wrappers\PhysicsEngine">
+      <UniqueIdentifier>{46bb8ea9-270a-48fa-aa1b-fd7ddd8d4ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Wrappers\PhysicsEngine\Jolt">
+      <UniqueIdentifier>{e6056306-b3c1-4eca-b6b2-4103fa8e13c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Wrappers\imgui">
+      <UniqueIdentifier>{e7978cb7-b152-41cb-ba0d-bdbc6b6afde7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine">
+      <UniqueIdentifier>{35e577d7-8545-4610-935d-60fc854268f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Core">
+      <UniqueIdentifier>{22b3f5d1-68fd-4d3d-be26-af13123c63b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Core\Debugging">
+      <UniqueIdentifier>{1794a8a1-4b1a-4520-991c-7b91a2a37e82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Core\Scene">
+      <UniqueIdentifier>{4d2db80f-3216-4650-8af7-06e1d4d721a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Core\Scene\Components">
+      <UniqueIdentifier>{78c10eb1-765e-4522-9008-c80f4734c755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Core\Scene\Components\Lights">
+      <UniqueIdentifier>{b879cf56-2ecd-403b-b044-0cd775d46741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Core\Scene\Components\Physics">
+      <UniqueIdentifier>{36ba4082-3500-43f2-9625-54f0b256249c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Core\Scene\Components\Rendering">
+      <UniqueIdentifier>{b696d6ce-0118-4a98-aefb-1d75fbf42ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\LowRenderer">
+      <UniqueIdentifier>{c72c3438-29a7-4c32-ae78-e3fc540a7042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\LowRenderer\Rendering">
+      <UniqueIdentifier>{c6c34e16-526f-4b4b-907b-d614b8ce6b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\LowRenderer\PostProcess">
+      <UniqueIdentifier>{17b251d9-8fe0-488a-b72b-25064f09f548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Maths">
+      <UniqueIdentifier>{02e98903-cc07-48f1-891b-f6bfe00368b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Renderer">
+      <UniqueIdentifier>{58eaecc4-4cc9-4f1e-8448-9ec0e0628f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Renderer\Uniform">
+      <UniqueIdentifier>{c24dc3d8-2cb9-4155-b57a-18092069249e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Resources">
+      <UniqueIdentifier>{9e2665b8-7d38-4de3-aa34-2a2847c7feac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Wrappers">
+      <UniqueIdentifier>{7045ee2b-dd06-4c98-9678-b424d51af946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Wrappers\ModelLoader">
+      <UniqueIdentifier>{a5e17463-010c-41b5-a494-4b6af0f553a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Wrappers\PhysicsEngine">
+      <UniqueIdentifier>{162a878b-f061-49b1-8af4-5a226617d758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Wrappers\Interfacing">
+      <UniqueIdentifier>{bc350c5c-36a6-458c-959e-c9739cf6281d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Wrappers\Interfacing\ImGui">
+      <UniqueIdentifier>{7932ed38-a918-42d1-a7d1-4aebbb3c09ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Wrappers\miniaudio">
+      <UniqueIdentifier>{8f70d3df-a7a0-45b3-ba1b-950301fb70da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Wrappers\miniaudio">
+      <UniqueIdentifier>{0bed92a0-de64-4f53-9062-7e4907a43fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Sounds">
+      <UniqueIdentifier>{116398a7-cb76-4ff1-affc-e224795d9d74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\NAT_Engine\Core\Scene\Components\Sounds">
+      <UniqueIdentifier>{d53adbf3-26cf-4663-92d9-8b068e25f657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Core\Serialization">
+      <UniqueIdentifier>{be8a2e6b-aa65-4840-a4ff-f2990bcea1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\NAT_Engine\Wrappers\stb">
+      <UniqueIdentifier>{815d3fa7-80e2-4c17-a396-62248e7a4903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game">
+      <UniqueIdentifier>{f09c6bd9-bd0d-4b22-9b39-0fa724798907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Components">
+      <UniqueIdentifier>{486a711b-0c71-47c8-ae9d-3911df9ddebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Game\Components\GameFeatures">
+      <UniqueIdentifier>{029afdc0-b556-4ec3-b1e5-8d0b469659b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game">
+      <UniqueIdentifier>{1c03f2df-6813-4e53-b2af-03e4b0afb652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Components">
+      <UniqueIdentifier>{a209f459-69aa-4cce-9081-213a2cbff080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Game\Components\GameFeatures">
+      <UniqueIdentifier>{7f5bd186-cba2-40c8-bc8a-9f5c24413bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\FileManager.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Types.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Debugging\Log.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\GameObject.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Scene.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\SceneManager.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Transform.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\IComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\RenderModelComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Lights\DirectionalLightComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Lights\ILightComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Lights\PointLightComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Lights\SpotLightComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Rendering\CameraComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Rendering\MirrorComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Rendering\PortalBaseComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Rendering\PortalComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Colliders\CapsuleCollider.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Colliders\CubeCollider.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Colliders\ICollider.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Colliders\MeshCollider.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\RigibodyComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Colliders\SphereCollider.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LowRenderer\DepthBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LowRenderer\FrameBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LowRenderer\Rendering\FlyingCamera.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LowRenderer\Rendering\Camera.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LowRenderer\PostProcess\BloomPostProcess.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LowRenderer\PostProcess\BlurPostProcess.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LowRenderer\PostProcess\GammaCorrectionPostProcess.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LowRenderer\PostProcess\PostProcessEffect.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LowRenderer\PostProcess\PostProcessManager.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Maths\Maths.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\LowRenderer\RenderPassType.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererDepthBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererFrameBuffer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererImageView.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererMesh.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererShaderProgram.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\VulkanRenderer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\IRendererResource.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererPipeline.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererShader.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererTexture.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererTextureSampler.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\RendererVertex.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\Uniform\RendererLightUniform.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\Uniform\RendererMainUniform.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\Uniform\RendererPostUniform.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\Uniform\RendererUniformObject.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\CubeMap.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\IResource.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\Material.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\Mesh.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\Model.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\ResourceManager.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\Shader.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\ShaderProgram.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\SkinnedModel.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\StaticTexture.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\Texture.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\TextureSampler.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\Interfacing.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\ShaderLoader.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\WindowManager.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\GLFW\glfw3.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\GLFW\glfw3native.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\ModelLoader\AssimpModelLoader.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\aabb.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\ai_assert.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\anim.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\AssertHandler.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\Base64.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\BaseImporter.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\Bitmap.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\BlobIOSystem.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\ByteSwapper.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\camera.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\cexport.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\cfileio.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\cimport.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\ColladaMetaData.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\color4.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\commonMetaData.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\config.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\CreateAnimMesh.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\DefaultIOStream.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\DefaultIOSystem.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\DefaultLogger.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\defs.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\Exceptional.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\Exporter.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\fast_atof.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\GenericProperty.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\GltfMaterial.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\Hash.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\Importer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\importerdesc.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\IOStream.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\IOStreamBuffer.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\IOSystem.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\light.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\LineSplitter.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\LogAux.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\Logger.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\LogStream.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\material.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\MathFunctions.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\matrix3x3.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\matrix4x4.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\MemoryIOWrapper.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\mesh.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\metadata.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\NullLogger.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\ObjMaterial.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\ParsingUtils.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\pbrmaterial.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\postprocess.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\Profiler.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\ProgressHandler.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\qnan.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\quaternion.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\RemoveComments.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\scene.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\SceneCombiner.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\SGSpatialSort.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\SkeletonMeshBuilder.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\SmallVector.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\SmoothingGroups.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\SpatialSort.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\StandardShapes.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\StreamReader.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\StreamWriter.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\StringComparison.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\StringUtils.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\Subdivision.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\texture.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\TinyFormatter.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\types.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\vector2.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\vector3.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\version.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\Vertex.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\XmlParser.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\XMLTools.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\assimp\ZipArchiveIOSystem.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\PhysicsEngine\BroadPhaseLayer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\PhysicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\PhysicsEngine\CollisionEvent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\PhysicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\PhysicsEngine\VulkanColliderRenderer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\PhysicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\PhysicsEngine\IPhysicsEngine.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\PhysicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\PhysicsEngine\JoltPhysicsEngine.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\PhysicsEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Jolt\Jolt.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\PhysicsEngine\Jolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Jolt\RegisterTypes.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\PhysicsEngine\Jolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ImGUI\imconfig.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ImGUI\imgui.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ImGUI\imgui_impl_glfw.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ImGUI\imgui_impl_vulkan.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ImGUI\imgui_internal.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ImGUI\imgui_stdlib.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ImGUI\imstb_rectpack.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ImGUI\imstb_textedit.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\ImGUI\imstb_truetype.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\STB_Image\stb_image.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\STB_Image\stb_image_write.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Default_Resources\Icon\resource.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Debugging\Assert.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Debugging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\App.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\PRNG.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\StaticCubeMap.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\IPhysicalComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\Sound\SoundEngine.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\miniaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\Sound\SoundLoader.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\miniaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\Sound.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Resources\SoundData.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Signal.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Sounds\SoundListenerComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\Sounds\SoundPlayerComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components\Sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\miniaudio\miniaudio.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\miniaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\STB_vorbis\stb_vorbis.h">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\miniaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Scene\Components\SkyBoxComponent.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Serialization\Serializer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Serialization\Deserializer.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Core\Serialization\Conversion.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\ModelLoader\IModelLoader.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Wrappers\ImageLoader.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Header\PlayerManager.hpp">
+      <Filter>Fichiers d%27en-tête\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\Bumper.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Components\GameFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\Laser.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Components\GameFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Renderer\Uniform\RendererWindowUniform.hpp">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Renderer\Uniform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\DoubleJump.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Components\GameFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\PortalGun.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Components\GameFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\Button.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Components\GameFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\ButtonDoor.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Components\GameFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\PortalObject.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Components\GameFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\ButtonPortal.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Components\GameFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game\Header\Component\LoadSceneComponent.hpp">
+      <Filter>Fichiers d%27en-tête\Game\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\App.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\FileManager.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Debugging\Log.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\GameObject.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Scene.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\SceneManager.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Transform.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\IComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\RenderModelComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Lights\DirectionalLightComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Lights\ILightComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Lights\PointLightComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Lights\SpotLightComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Colliders\CapsuleCollider.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Colliders\CubeCollider.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Colliders\ICollider.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\IPhysicalComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Colliders\MeshCollider.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\RigibodyComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Colliders\SphereCollider.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Rendering\CameraComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Rendering\MirrorComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Rendering\PortalBaseComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Rendering\PortalComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\LowRenderer\DepthBuffer.cpp">
+      <Filter>Fichiers sources\NAT_Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\LowRenderer\FrameBuffer.cpp">
+      <Filter>Fichiers sources\NAT_Engine\LowRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\LowRenderer\Rendering\FlyingCamera.cpp">
+      <Filter>Fichiers sources\NAT_Engine\LowRenderer\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\LowRenderer\Rendering\Camera.cpp">
+      <Filter>Fichiers sources\NAT_Engine\LowRenderer\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\LowRenderer\PostProcess\BloomPostProcess.cpp">
+      <Filter>Fichiers sources\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\LowRenderer\PostProcess\BlurPostProcess.cpp">
+      <Filter>Fichiers sources\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\LowRenderer\PostProcess\GammaCorrectionPostProcess.cpp">
+      <Filter>Fichiers sources\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\LowRenderer\PostProcess\PostProcessEffect.cpp">
+      <Filter>Fichiers sources\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\LowRenderer\PostProcess\PostProcessManager.cpp">
+      <Filter>Fichiers sources\NAT_Engine\LowRenderer\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Maths\Maths.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\IRenderResource.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\RendererBuffer.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\RendererDepthBuffer.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\RendererFrameBuffer.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\RendererMesh.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\RendererShader.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\RendererShaderProgram.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\RendererTexture.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\RendererTextureSampler.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\Uniform\RendererUniformObject.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\RendererVertex.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\VulkanRenderer.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\ResourceManager.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\Uniform\RendererLightUniform.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\Uniform\RendererMainUniform.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\Uniform\RendererPostUniform.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\IResource.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\Material.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\Shader.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\ShaderProgram.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\StaticTexture.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\Texture.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\TextureSampler.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\Mesh.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\Model.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\ShaderLoader.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\WindowManager.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\ImageLoader.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\ModelLoader\AssimpModelLoader.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\ModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\ModelLoader\IModelLoader.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\ModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\PhysicsEngine\BroadPhaseLayer.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\PhysicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\PhysicsEngine\CollisionEvent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\PhysicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\PhysicsEngine\IPhysicsEngine.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\PhysicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\PhysicsEngine\JoltPhysicsEngine.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\PhysicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\PhysicsEngine\VulkanColliderRenderer.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\PhysicsEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\Interfacing.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\Interfacing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\ImGUI\imgui.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\Interfacing\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\ImGUI\imgui_demo.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\Interfacing\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\ImGUI\imgui_draw.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\Interfacing\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\ImGUI\imgui_impl_glfw.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\Interfacing\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\ImGUI\imgui_impl_vulkan.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\Interfacing\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\ImGUI\imgui_stdlib.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\Interfacing\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\ImGUI\imgui_tables.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\Interfacing\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\ImGUI\imgui_widgets.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\Interfacing\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Serialization\Conversion.cpp">
+      <Filter>Fichiers sources\NAT_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Serialization\Deserializer.cpp">
+      <Filter>Fichiers sources\NAT_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\PRNG.cpp">
+      <Filter>Fichiers sources\NAT_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Serialization\Serializer.cpp">
+      <Filter>Fichiers sources\NAT_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\CubeMap.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\SkyBoxComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\StaticCubeMap.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\Sound\SoundEngine.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\miniaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Wrappers\Sound\SoundLoader.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\miniaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\Sound.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Resources\SoundData.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Signal.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Sounds\SoundListenerComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Core\Scene\Components\Sounds\SoundPlayerComponent.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Core\Scene\Components\Sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\STB_vorbis\stb_vorbis.c">
+      <Filter>Fichiers sources\NAT_Engine\Wrappers\miniaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Sources\PlayerManager.cpp">
+      <Filter>Fichiers sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\Bumper.cpp">
+      <Filter>Fichiers sources\Game\Components\GameFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\Laser.cpp">
+      <Filter>Fichiers sources\Game\Components\GameFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\Renderer\Uniform\RendererWindowUniform.cpp">
+      <Filter>Fichiers sources\NAT_Engine\Renderer\Uniform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\DoubleJump.cpp">
+      <Filter>Fichiers sources\Game\Components\GameFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\PortalGun.cpp">
+      <Filter>Fichiers sources\Game\Components\GameFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\Button.cpp">
+      <Filter>Fichiers sources\Game\Components\GameFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\ButtonDoor.cpp">
+      <Filter>Fichiers sources\Game\Components\GameFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\PortalObject.cpp">
+      <Filter>Fichiers sources\Game\Components\GameFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\ButtonPortal.cpp">
+      <Filter>Fichiers sources\Game\Components\GameFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game\Sources\Component\LoadSceneComponent.cpp">
+      <Filter>Fichiers sources\Game\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Headers\Core\Scene\GameObject.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Core\Scene</Filter>
+    </None>
+    <None Include="..\Headers\Maths\Maths.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Maths</Filter>
+    </None>
+    <None Include="..\Headers\Resources\ResourceManager.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Resources</Filter>
+    </None>
+    <None Include="..\Includes\assimp\color4.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </None>
+    <None Include="..\Includes\assimp\config.h.in">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </None>
+    <None Include="..\Includes\assimp\material.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </None>
+    <None Include="..\Includes\assimp\matrix3x3.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </None>
+    <None Include="..\Includes\assimp\matrix4x4.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </None>
+    <None Include="..\Includes\assimp\quaternion.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </None>
+    <None Include="..\Includes\assimp\SmoothingGroups.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </None>
+    <None Include="..\Includes\assimp\vector2.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </None>
+    <None Include="..\Includes\assimp\vector3.inl">
+      <Filter>Fichiers d%27en-tête\NAT_Engine\Wrappers\ModelLoader\assimp</Filter>
+    </None>
+  </ItemGroup>
+</Project>

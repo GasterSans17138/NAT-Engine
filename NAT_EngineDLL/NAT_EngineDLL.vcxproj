@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3492dbc9-ffc1-4c11-9f3e-88949d948058}</ProjectGuid>
+    <RootNamespace>NATEngineDLL</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>NAT_Engine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)Includes</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)Includes</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)Includes</ExternalIncludePath>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)Includes</ExternalIncludePath>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;NATENGINEDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);JOLT_API;JPH_DEBUG_RENDERER;NAT_EngineDLL</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Headers;$(VK_SDK_PATH)\Include;$(SolutionDir)\Includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Externals\assimp;$(SolutionDir)\Externals\Jolt;$(SolutionDir)\Externals\glfw3;$(VK_SDK_PATH)\Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;glfw3_mt.lib;glfw3.lib;Joltd.lib;assimp-vc142-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(OutputPath)$(ProjectName).dll" "$(SolutionDir)Externals\$(ProjectName)\" /I /Q /Y
+xcopy "$(OutputPath)$(ProjectName).lib" "$(SolutionDir)Externals\$(ProjectName)\" /I /Q /Y
+xcopy "$(OutputPath)$(ProjectName).pdb" "$(SolutionDir)Externals\$(ProjectName)\" /I /Q /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;NATENGINEDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);JOLT_API;JPH_DEBUG_RENDERER;NAT_EngineDLL</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Headers;$(VK_SDK_PATH)\Include;$(SolutionDir)\Includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Externals\assimp;$(SolutionDir)\Externals\Jolt;$(SolutionDir)\Externals\glfw3;$(VK_SDK_PATH)\Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;glfw3_mt.lib;glfw3.lib;assimp-vc142-mt.lib;Jolt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(OutputPath)$(ProjectName).dll" "$(SolutionDir)Externals\$(ProjectName)\" /I /Q /Y
+xcopy "$(OutputPath)$(ProjectName).lib" "$(SolutionDir)Externals\$(ProjectName)\" /I /Q /Y</Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;NATENGINEDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);JOLT_API;JPH_DEBUG_RENDERER;NAT_EngineDLL;JOLT_API;JPH_DEBUG_RENDERER</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Headers;$(VK_SDK_PATH)\Include;$(SolutionDir)\Includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)Externals\assimp;$(SolutionDir)Externals\Jolt;$(SolutionDir)Externals\glfw3;$(VK_SDK_PATH)\Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;glfw3_mt.lib;glfw3.lib;Joltd.lib;assimp-vc142-mtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(OutputPath)$(ProjectName).dll" "$(SolutionDir)Externals\$(ProjectName)\" /I /Q /Y
+xcopy "$(OutputPath)$(ProjectName).lib" "$(SolutionDir)Externals\$(ProjectName)\" /I /Q /Y
+xcopy "$(OutputPath)$(ProjectName).pdb" "$(SolutionDir)Externals\$(ProjectName)\" /I /Q /Y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;NATENGINEDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions);JOLT_API;JPH_DEBUG_RENDERER;NAT_EngineDLL;JOLT_API;JPH_DEBUG_RENDERER</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Headers;$(VK_SDK_PATH)\Include;$(SolutionDir)\Includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Externals\assimp;$(SolutionDir)\Externals\Jolt;$(SolutionDir)\Externals\glfw3;$(VK_SDK_PATH)\Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>vulkan-1.lib;glfw3_mt.lib;glfw3.lib;assimp-vc142-mt.lib;Jolt.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(OutputPath)$(ProjectName).dll" "$(SolutionDir)Externals\$(ProjectName)\" /I /Q /Y
+xcopy "$(OutputPath)$(ProjectName).lib" "$(SolutionDir)Externals\$(ProjectName)\" /I /Q /Y</Command>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Default_Resources\Icon\resource.h" />
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\Bumper.hpp" />
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\Button.hpp" />
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\ButtonDoor.hpp" />
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\ButtonPortal.hpp" />
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\DoubleJump.hpp" />
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\Laser.hpp" />
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\PortalGun.hpp" />
+    <ClInclude Include="..\Game\Header\Component\GameFeatures\PortalObject.hpp" />
+    <ClInclude Include="..\Game\Header\Component\LoadSceneComponent.hpp" />
+    <ClInclude Include="..\Game\Header\PlayerManager.hpp" />
+    <ClInclude Include="..\Headers\Core\App.hpp" />
+    <ClInclude Include="..\Headers\Core\Debugging\Assert.hpp" />
+    <ClInclude Include="..\Headers\Core\Debugging\Log.hpp" />
+    <ClInclude Include="..\Headers\Core\FileManager.hpp" />
+    <ClInclude Include="..\Headers\Core\PRNG.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Colliders\CapsuleCollider.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Colliders\CubeCollider.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Colliders\ICollider.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Colliders\MeshCollider.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Colliders\SphereCollider.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\IComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\IPhysicalComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Lights\DirectionalLightComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Lights\ILightComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Lights\PointLightComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Lights\SpotLightComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Rendering\CameraComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Rendering\MirrorComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Rendering\PortalBaseComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Rendering\PortalComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\RenderModelComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\RigibodyComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\SkyBoxComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Sounds\SoundListenerComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Components\Sounds\SoundPlayerComponent.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\GameObject.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Scene.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\SceneManager.hpp" />
+    <ClInclude Include="..\Headers\Core\Scene\Transform.hpp" />
+    <ClInclude Include="..\Headers\Core\Serialization\Conversion.hpp" />
+    <ClInclude Include="..\Headers\Core\Serialization\Deserializer.hpp" />
+    <ClInclude Include="..\Headers\Core\Serialization\Serializer.hpp" />
+    <ClInclude Include="..\Headers\Core\Signal.hpp" />
+    <ClInclude Include="..\Headers\Core\Types.hpp" />
+    <ClInclude Include="..\Headers\LowRenderer\DepthBuffer.hpp" />
+    <ClInclude Include="..\Headers\LowRenderer\FrameBuffer.hpp" />
+    <ClInclude Include="..\Headers\LowRenderer\PostProcess\BloomPostProcess.hpp" />
+    <ClInclude Include="..\Headers\LowRenderer\PostProcess\BlurPostProcess.hpp" />
+    <ClInclude Include="..\Headers\LowRenderer\PostProcess\GammaCorrectionPostProcess.hpp" />
+    <ClInclude Include="..\Headers\LowRenderer\PostProcess\PostProcessEffect.hpp" />
+    <ClInclude Include="..\Headers\LowRenderer\PostProcess\PostProcessManager.hpp" />
+    <ClInclude Include="..\Headers\LowRenderer\Rendering\Camera.hpp" />
+    <ClInclude Include="..\Headers\LowRenderer\Rendering\FlyingCamera.hpp" />
+    <ClInclude Include="..\Headers\LowRenderer\RenderPassType.hpp" />
+    <ClInclude Include="..\Headers\Maths\Maths.hpp" />
+    <ClInclude Include="..\Headers\Renderer\IRendererResource.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererBuffer.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererDepthBuffer.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererFrameBuffer.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererImageView.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererMesh.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererPipeline.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererShader.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererShaderProgram.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererTexture.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererTextureSampler.hpp" />
+    <ClInclude Include="..\Headers\Renderer\RendererVertex.hpp" />
+    <ClInclude Include="..\Headers\Renderer\Uniform\RendererLightUniform.hpp" />
+    <ClInclude Include="..\Headers\Renderer\Uniform\RendererMainUniform.hpp" />
+    <ClInclude Include="..\Headers\Renderer\Uniform\RendererPostUniform.hpp" />
+    <ClInclude Include="..\Headers\Renderer\Uniform\RendererUniformObject.hpp" />
+    <ClInclude Include="..\Headers\Renderer\Uniform\RendererWindowUniform.hpp" />
+    <ClInclude Include="..\Headers\Renderer\VulkanRenderer.hpp" />
+    <ClInclude Include="..\Headers\Resources\CubeMap.hpp" />
+    <ClInclude Include="..\Headers\Resources\IResource.hpp" />
+    <ClInclude Include="..\Headers\Resources\Material.hpp" />
+    <ClInclude Include="..\Headers\Resources\Mesh.hpp" />
+    <ClInclude Include="..\Headers\Resources\Model.hpp" />
+    <ClInclude Include="..\Headers\Resources\ResourceManager.hpp" />
+    <ClInclude Include="..\Headers\Resources\Shader.hpp" />
+    <ClInclude Include="..\Headers\Resources\ShaderProgram.hpp" />
+    <ClInclude Include="..\Headers\Resources\SkinnedModel.hpp" />
+    <ClInclude Include="..\Headers\Resources\Sound.hpp" />
+    <ClInclude Include="..\Headers\Resources\SoundData.hpp" />
+    <ClInclude Include="..\Headers\Resources\StaticCubeMap.hpp" />
+    <ClInclude Include="..\Headers\Resources\StaticTexture.hpp" />
+    <ClInclude Include="..\Headers\Resources\Texture.hpp" />
+    <ClInclude Include="..\Headers\Resources\TextureSampler.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\ImageLoader.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\Interfacing.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\ModelLoader\AssimpModelLoader.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\ModelLoader\IModelLoader.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\PhysicsEngine\BroadPhaseLayer.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\PhysicsEngine\CollisionEvent.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\PhysicsEngine\IPhysicsEngine.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\PhysicsEngine\JoltPhysicsEngine.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\PhysicsEngine\VulkanColliderRenderer.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\ShaderLoader.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\Sound\SoundEngine.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\Sound\SoundLoader.hpp" />
+    <ClInclude Include="..\Headers\Wrappers\WindowManager.hpp" />
+    <ClInclude Include="..\Includes\assimp\aabb.h" />
+    <ClInclude Include="..\Includes\assimp\ai_assert.h" />
+    <ClInclude Include="..\Includes\assimp\anim.h" />
+    <ClInclude Include="..\Includes\assimp\AssertHandler.h" />
+    <ClInclude Include="..\Includes\assimp\Base64.hpp" />
+    <ClInclude Include="..\Includes\assimp\BaseImporter.h" />
+    <ClInclude Include="..\Includes\assimp\Bitmap.h" />
+    <ClInclude Include="..\Includes\assimp\BlobIOSystem.h" />
+    <ClInclude Include="..\Includes\assimp\ByteSwapper.h" />
+    <ClInclude Include="..\Includes\assimp\camera.h" />
+    <ClInclude Include="..\Includes\assimp\cexport.h" />
+    <ClInclude Include="..\Includes\assimp\cfileio.h" />
+    <ClInclude Include="..\Includes\assimp\cimport.h" />
+    <ClInclude Include="..\Includes\assimp\ColladaMetaData.h" />
+    <ClInclude Include="..\Includes\assimp\color4.h" />
+    <ClInclude Include="..\Includes\assimp\commonMetaData.h" />
+    <ClInclude Include="..\Includes\assimp\config.h" />
+    <ClInclude Include="..\Includes\assimp\CreateAnimMesh.h" />
+    <ClInclude Include="..\Includes\assimp\DefaultIOStream.h" />
+    <ClInclude Include="..\Includes\assimp\DefaultIOSystem.h" />
+    <ClInclude Include="..\Includes\assimp\DefaultLogger.hpp" />
+    <ClInclude Include="..\Includes\assimp\defs.h" />
+    <ClInclude Include="..\Includes\assimp\Exceptional.h" />
+    <ClInclude Include="..\Includes\assimp\Exporter.hpp" />
+    <ClInclude Include="..\Includes\assimp\fast_atof.h" />
+    <ClInclude Include="..\Includes\assimp\GenericProperty.h" />
+    <ClInclude Include="..\Includes\assimp\GltfMaterial.h" />
+    <ClInclude Include="..\Includes\assimp\Hash.h" />
+    <ClInclude Include="..\Includes\assimp\Importer.hpp" />
+    <ClInclude Include="..\Includes\assimp\importerdesc.h" />
+    <ClInclude Include="..\Includes\assimp\IOStream.hpp" />
+    <ClInclude Include="..\Includes\assimp\IOStreamBuffer.h" />
+    <ClInclude Include="..\Includes\assimp\IOSystem.hpp" />
+    <ClInclude Include="..\Includes\assimp\light.h" />
+    <ClInclude Include="..\Includes\assimp\LineSplitter.h" />
+    <ClInclude Include="..\Includes\assimp\LogAux.h" />
+    <ClInclude Include="..\Includes\assimp\Logger.hpp" />
+    <ClInclude Include="..\Includes\assimp\LogStream.hpp" />
+    <ClInclude Include="..\Includes\assimp\material.h" />
+    <ClInclude Include="..\Includes\assimp\MathFunctions.h" />
+    <ClInclude Include="..\Includes\assimp\matrix3x3.h" />
+    <ClInclude Include="..\Includes\assimp\matrix4x4.h" />
+    <ClInclude Include="..\Includes\assimp\MemoryIOWrapper.h" />
+    <ClInclude Include="..\Includes\assimp\mesh.h" />
+    <ClInclude Include="..\Includes\assimp\metadata.h" />
+    <ClInclude Include="..\Includes\assimp\NullLogger.hpp" />
+    <ClInclude Include="..\Includes\assimp\ObjMaterial.h" />
+    <ClInclude Include="..\Includes\assimp\ParsingUtils.h" />
+    <ClInclude Include="..\Includes\assimp\pbrmaterial.h" />
+    <ClInclude Include="..\Includes\assimp\postprocess.h" />
+    <ClInclude Include="..\Includes\assimp\Profiler.h" />
+    <ClInclude Include="..\Includes\assimp\ProgressHandler.hpp" />
+    <ClInclude Include="..\Includes\assimp\qnan.h" />
+    <ClInclude Include="..\Includes\assimp\quaternion.h" />
+    <ClInclude Include="..\Includes\assimp\RemoveComments.h" />
+    <ClInclude Include="..\Includes\assimp\scene.h" />
+    <ClInclude Include="..\Includes\assimp\SceneCombiner.h" />
+    <ClInclude Include="..\Includes\assimp\SGSpatialSort.h" />
+    <ClInclude Include="..\Includes\assimp\SkeletonMeshBuilder.h" />
+    <ClInclude Include="..\Includes\assimp\SmallVector.h" />
+    <ClInclude Include="..\Includes\assimp\SmoothingGroups.h" />
+    <ClInclude Include="..\Includes\assimp\SpatialSort.h" />
+    <ClInclude Include="..\Includes\assimp\StandardShapes.h" />
+    <ClInclude Include="..\Includes\assimp\StreamReader.h" />
+    <ClInclude Include="..\Includes\assimp\StreamWriter.h" />
+    <ClInclude Include="..\Includes\assimp\StringComparison.h" />
+    <ClInclude Include="..\Includes\assimp\StringUtils.h" />
+    <ClInclude Include="..\Includes\assimp\Subdivision.h" />
+    <ClInclude Include="..\Includes\assimp\texture.h" />
+    <ClInclude Include="..\Includes\assimp\TinyFormatter.h" />
+    <ClInclude Include="..\Includes\assimp\types.h" />
+    <ClInclude Include="..\Includes\assimp\vector2.h" />
+    <ClInclude Include="..\Includes\assimp\vector3.h" />
+    <ClInclude Include="..\Includes\assimp\version.h" />
+    <ClInclude Include="..\Includes\assimp\Vertex.h" />
+    <ClInclude Include="..\Includes\assimp\XmlParser.h" />
+    <ClInclude Include="..\Includes\assimp\XMLTools.h" />
+    <ClInclude Include="..\Includes\assimp\ZipArchiveIOSystem.h" />
+    <ClInclude Include="..\Includes\GLFW\glfw3.h" />
+    <ClInclude Include="..\Includes\GLFW\glfw3native.h" />
+    <ClInclude Include="..\Includes\ImGUI\imconfig.h" />
+    <ClInclude Include="..\Includes\ImGUI\imgui.h" />
+    <ClInclude Include="..\Includes\ImGUI\imgui_impl_glfw.h" />
+    <ClInclude Include="..\Includes\ImGUI\imgui_impl_vulkan.h" />
+    <ClInclude Include="..\Includes\ImGUI\imgui_internal.h" />
+    <ClInclude Include="..\Includes\ImGUI\imgui_stdlib.hpp" />
+    <ClInclude Include="..\Includes\ImGUI\imstb_rectpack.h" />
+    <ClInclude Include="..\Includes\ImGUI\imstb_textedit.h" />
+    <ClInclude Include="..\Includes\ImGUI\imstb_truetype.h" />
+    <ClInclude Include="..\Includes\Jolt\Jolt.h" />
+    <ClInclude Include="..\Includes\Jolt\RegisterTypes.h" />
+    <ClInclude Include="..\Includes\miniaudio\miniaudio.h" />
+    <ClInclude Include="..\Includes\STB_Image\stb_image.h" />
+    <ClInclude Include="..\Includes\STB_Image\stb_image_write.h" />
+    <ClInclude Include="..\Includes\STB_vorbis\stb_vorbis.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\Bumper.cpp" />
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\Button.cpp" />
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\ButtonDoor.cpp" />
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\ButtonPortal.cpp" />
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\DoubleJump.cpp" />
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\Laser.cpp" />
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\PortalGun.cpp" />
+    <ClCompile Include="..\Game\Sources\Component\GameFeatures\PortalObject.cpp" />
+    <ClCompile Include="..\Game\Sources\Component\LoadSceneComponent.cpp" />
+    <ClCompile Include="..\Game\Sources\PlayerManager.cpp" />
+    <ClCompile Include="..\Includes\ImGUI\imgui.cpp" />
+    <ClCompile Include="..\Includes\ImGUI\imgui_demo.cpp" />
+    <ClCompile Include="..\Includes\ImGUI\imgui_draw.cpp" />
+    <ClCompile Include="..\Includes\ImGUI\imgui_impl_glfw.cpp" />
+    <ClCompile Include="..\Includes\ImGUI\imgui_impl_vulkan.cpp" />
+    <ClCompile Include="..\Includes\ImGUI\imgui_stdlib.cpp" />
+    <ClCompile Include="..\Includes\ImGUI\imgui_tables.cpp" />
+    <ClCompile Include="..\Includes\ImGUI\imgui_widgets.cpp" />
+    <ClCompile Include="..\Includes\STB_vorbis\stb_vorbis.c" />
+    <ClCompile Include="..\Sources\Core\App.cpp" />
+    <ClCompile Include="..\Sources\Core\Debugging\Log.cpp" />
+    <ClCompile Include="..\Sources\Core\FileManager.cpp" />
+    <ClCompile Include="..\Sources\Core\PRNG.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Colliders\CapsuleCollider.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Colliders\CubeCollider.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Colliders\ICollider.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Colliders\MeshCollider.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Colliders\SphereCollider.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\IComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\IPhysicalComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Lights\DirectionalLightComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Lights\ILightComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Lights\PointLightComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Lights\SpotLightComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Rendering\CameraComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Rendering\MirrorComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Rendering\PortalBaseComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Rendering\PortalComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\RenderModelComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\RigibodyComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\SkyBoxComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Sounds\SoundListenerComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Components\Sounds\SoundPlayerComponent.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\GameObject.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Scene.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\SceneManager.cpp" />
+    <ClCompile Include="..\Sources\Core\Scene\Transform.cpp" />
+    <ClCompile Include="..\Sources\Core\Serialization\Conversion.cpp" />
+    <ClCompile Include="..\Sources\Core\Serialization\Deserializer.cpp" />
+    <ClCompile Include="..\Sources\Core\Serialization\Serializer.cpp" />
+    <ClCompile Include="..\Sources\Core\Signal.cpp" />
+    <ClCompile Include="..\Sources\LowRenderer\DepthBuffer.cpp" />
+    <ClCompile Include="..\Sources\LowRenderer\FrameBuffer.cpp" />
+    <ClCompile Include="..\Sources\LowRenderer\PostProcess\BloomPostProcess.cpp" />
+    <ClCompile Include="..\Sources\LowRenderer\PostProcess\BlurPostProcess.cpp" />
+    <ClCompile Include="..\Sources\LowRenderer\PostProcess\GammaCorrectionPostProcess.cpp" />
+    <ClCompile Include="..\Sources\LowRenderer\PostProcess\PostProcessEffect.cpp" />
+    <ClCompile Include="..\Sources\LowRenderer\PostProcess\PostProcessManager.cpp" />
+    <ClCompile Include="..\Sources\LowRenderer\Rendering\Camera.cpp" />
+    <ClCompile Include="..\Sources\LowRenderer\Rendering\FlyingCamera.cpp" />
+    <ClCompile Include="..\Sources\Maths\Maths.cpp" />
+    <ClCompile Include="..\Sources\Renderer\IRenderResource.cpp" />
+    <ClCompile Include="..\Sources\Renderer\RendererBuffer.cpp" />
+    <ClCompile Include="..\Sources\Renderer\RendererDepthBuffer.cpp" />
+    <ClCompile Include="..\Sources\Renderer\RendererFrameBuffer.cpp" />
+    <ClCompile Include="..\Sources\Renderer\RendererMesh.cpp" />
+    <ClCompile Include="..\Sources\Renderer\RendererShader.cpp" />
+    <ClCompile Include="..\Sources\Renderer\RendererShaderProgram.cpp" />
+    <ClCompile Include="..\Sources\Renderer\RendererTexture.cpp" />
+    <ClCompile Include="..\Sources\Renderer\RendererTextureSampler.cpp" />
+    <ClCompile Include="..\Sources\Renderer\RendererVertex.cpp" />
+    <ClCompile Include="..\Sources\Renderer\Uniform\RendererLightUniform.cpp" />
+    <ClCompile Include="..\Sources\Renderer\Uniform\RendererMainUniform.cpp" />
+    <ClCompile Include="..\Sources\Renderer\Uniform\RendererPostUniform.cpp" />
+    <ClCompile Include="..\Sources\Renderer\Uniform\RendererUniformObject.cpp" />
+    <ClCompile Include="..\Sources\Renderer\Uniform\RendererWindowUniform.cpp" />
+    <ClCompile Include="..\Sources\Renderer\VulkanRenderer.cpp" />
+    <ClCompile Include="..\Sources\Resources\CubeMap.cpp" />
+    <ClCompile Include="..\Sources\Resources\IResource.cpp" />
+    <ClCompile Include="..\Sources\Resources\Material.cpp" />
+    <ClCompile Include="..\Sources\Resources\Mesh.cpp" />
+    <ClCompile Include="..\Sources\Resources\Model.cpp" />
+    <ClCompile Include="..\Sources\Resources\ResourceManager.cpp" />
+    <ClCompile Include="..\Sources\Resources\Shader.cpp" />
+    <ClCompile Include="..\Sources\Resources\ShaderProgram.cpp" />
+    <ClCompile Include="..\Sources\Resources\Sound.cpp" />
+    <ClCompile Include="..\Sources\Resources\SoundData.cpp" />
+    <ClCompile Include="..\Sources\Resources\StaticCubeMap.cpp" />
+    <ClCompile Include="..\Sources\Resources\StaticTexture.cpp" />
+    <ClCompile Include="..\Sources\Resources\Texture.cpp" />
+    <ClCompile Include="..\Sources\Resources\TextureSampler.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\ImageLoader.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\Interfacing.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\ModelLoader\AssimpModelLoader.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\ModelLoader\IModelLoader.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\PhysicsEngine\BroadPhaseLayer.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\PhysicsEngine\CollisionEvent.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\PhysicsEngine\IPhysicsEngine.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\PhysicsEngine\JoltPhysicsEngine.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\PhysicsEngine\VulkanColliderRenderer.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\ShaderLoader.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\Sound\SoundEngine.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\Sound\SoundLoader.cpp" />
+    <ClCompile Include="..\Sources\Wrappers\WindowManager.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Headers\Core\Scene\GameObject.inl" />
+    <None Include="..\Headers\Maths\Maths.inl" />
+    <None Include="..\Headers\Resources\ResourceManager.inl" />
+    <None Include="..\Includes\assimp\color4.inl" />
+    <None Include="..\Includes\assimp\config.h.in" />
+    <None Include="..\Includes\assimp\material.inl" />
+    <None Include="..\Includes\assimp\matrix3x3.inl" />
+    <None Include="..\Includes\assimp\matrix4x4.inl" />
+    <None Include="..\Includes\assimp\quaternion.inl" />
+    <None Include="..\Includes\assimp\SmoothingGroups.inl" />
+    <None Include="..\Includes\assimp\vector2.inl" />
+    <None Include="..\Includes\assimp\vector3.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

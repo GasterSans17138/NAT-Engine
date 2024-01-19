@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b755ff10-2c9a-4134-9fc0-99ab35354527}</ProjectGuid>
+    <RootNamespace>NATEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>NAT_Editor</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(WindowsSDK_IncludePath);</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VK_SDK_PATH)\Include;$(SolutionDir)\Includes</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(WindowsSDK_IncludePath);</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VK_SDK_PATH)\Include;$(SolutionDir)\Includes</ExternalIncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(WindowsSDK_IncludePath);</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VK_SDK_PATH)\Include;$(SolutionDir)\Includes</ExternalIncludePath>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(WindowsSDK_IncludePath);</IncludePath>
+    <ExternalIncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(VK_SDK_PATH)\Include;$(SolutionDir)\Includes</ExternalIncludePath>
+    <IntDir>$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);JOLT_API;JPH_DEBUG_RENDERER</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Headers;$(SolutionDir)Includes;$(VK_SDK_PATH)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)\Externals\NAT_Engine</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;NAT_Engine.lib;Jolt.lib;Joltd.lib;NAT_Engine.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Externals\assimp\assimp-vc142-mt.dll" "$(OutDir)"  /Y /D /Q /I
+xcopy  "$(ProjectDir)Externals\assimp\assimp-vc142-mtd.dll" "$(OutDir)" /Y /D /Q /I
+xcopy "$(ProjectDir)Externals\glfw3\glfw3.dll" "$(OutDir)" /Y /D /Q /I
+xcopy "$(ProjectDir)Externals\NAT_Engine\NAT_Engine.dll" "$(OutDir)" /Y /D /Q /I</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);JOLT_API;JPH_DEBUG_RENDERER</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Headers;$(SolutionDir)Includes;$(VK_SDK_PATH)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)\Externals\NAT_Engine</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;NAT_Engine.lib;Joltd.lib;NAT_Engine.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Externals\assimp\assimp-vc142-mt.dll" "$(OutDir)"  /Y /D /Q /I
+xcopy  "$(ProjectDir)Externals\assimp\assimp-vc142-mtd.dll" "$(OutDir)" /Y /D /Q /I
+xcopy "$(ProjectDir)Externals\glfw3\glfw3.dll" "$(OutDir)" /Y /D /Q /I
+xcopy "$(ProjectDir)Externals\NAT_Engine\NAT_Engine.dll" "$(OutDir)" /Y /D /Q /I</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);JOLT_API;JPH_DEBUG_RENDERER</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Headers;$(SolutionDir)Includes;$(VK_SDK_PATH)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;NAT_Engine.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)\Externals\NAT_Engine;</AdditionalLibraryDirectories>
+      <AdditionalOptions>/NODEFAULTLIB:msvcrt.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Externals\assimp\assimp-vc142-mt.dll" "$(OutDir)"  /Y /D /Q /I
+xcopy  "$(ProjectDir)Externals\assimp\assimp-vc142-mtd.dll" "$(OutDir)" /Y /D /Q /I
+xcopy "$(ProjectDir)Externals\glfw3\glfw3.dll" "$(OutDir)" /Y /D /Q /I
+xcopy "$(ProjectDir)Externals\NAT_Engine\NAT_Engine.dll" "$(OutDir)" /Y /D /Q /I</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);JOLT_API;JPH_DEBUG_RENDERER</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Headers;$(SolutionDir)Includes;$(VK_SDK_PATH)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;NAT_Engine.lib;;NAT_Engine.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(ProjectDir)\Externals\NAT_Engine</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)Externals\assimp\assimp-vc142-mt.dll" "$(OutDir)"  /Y /D /Q /I
+xcopy  "$(ProjectDir)Externals\assimp\assimp-vc142-mtd.dll" "$(OutDir)" /Y /D /Q /I
+xcopy "$(ProjectDir)Externals\glfw3\glfw3.dll" "$(OutDir)" /Y /D /Q /I
+xcopy "$(ProjectDir)Externals\NAT_Engine\NAT_Engine.dll" "$(OutDir)" /Y /D /Q /I</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="NAT_Editor\Main.cpp" />
+    <ClCompile Include="Sources\Core\EditorApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Default_Resources\Icon\Icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Default_Resources\Icon\resource.h" />
+    <ClInclude Include="Headers\Core\App.hpp" />
+    <ClInclude Include="Headers\Core\Debugging\Assert.hpp" />
+    <ClInclude Include="Headers\Core\Debugging\Log.hpp" />
+    <ClInclude Include="Headers\Core\EditorApp.hpp" />
+    <ClInclude Include="Headers\Core\FileManager.hpp" />
+    <ClInclude Include="Headers\Core\PRNG.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Colliders\CapsuleCollider.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Colliders\CubeCollider.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Colliders\ICollider.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Colliders\MeshCollider.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Colliders\SphereCollider.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\IComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\IPhysicalComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Lights\DirectionalLightComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Lights\ILightComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Lights\PointLightComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Lights\SpotLightComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Rendering\CameraComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Rendering\MirrorComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Rendering\PortalBaseComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Rendering\PortalComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\RenderModelComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\RigibodyComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\SkyBoxComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Sounds\SoundListenerComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Components\Sounds\SoundPlayerComponent.hpp" />
+    <ClInclude Include="Headers\Core\Scene\GameObject.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Scene.hpp" />
+    <ClInclude Include="Headers\Core\Scene\SceneManager.hpp" />
+    <ClInclude Include="Headers\Core\Scene\Transform.hpp" />
+    <ClInclude Include="Headers\Core\Serialization\Conversion.hpp" />
+    <ClInclude Include="Headers\Core\Serialization\Deserializer.hpp" />
+    <ClInclude Include="Headers\Core\Serialization\Serializer.hpp" />
+    <ClInclude Include="Headers\Core\Signal.hpp" />
+    <ClInclude Include="Headers\Core\Types.hpp" />
+    <ClInclude Include="Headers\LowRenderer\DepthBuffer.hpp" />
+    <ClInclude Include="Headers\LowRenderer\FrameBuffer.hpp" />
+    <ClInclude Include="Headers\LowRenderer\PostProcess\BloomPostProcess.hpp" />
+    <ClInclude Include="Headers\LowRenderer\PostProcess\BlurPostProcess.hpp" />
+    <ClInclude Include="Headers\LowRenderer\PostProcess\GammaCorrectionPostProcess.hpp" />
+    <ClInclude Include="Headers\LowRenderer\PostProcess\PostProcessEffect.hpp" />
+    <ClInclude Include="Headers\LowRenderer\PostProcess\PostProcessManager.hpp" />
+    <ClInclude Include="Headers\LowRenderer\Rendering\Camera.hpp" />
+    <ClInclude Include="Headers\LowRenderer\Rendering\FlyingCamera.hpp" />
+    <ClInclude Include="Headers\LowRenderer\RenderPassType.hpp" />
+    <ClInclude Include="Headers\Maths\Maths.hpp" />
+    <ClInclude Include="Headers\Renderer\IRendererResource.hpp" />
+    <ClInclude Include="Headers\Renderer\RendererBuffer.hpp" />
+    <ClInclude Include="Headers\Renderer\RendererDepthBuffer.hpp" />
+    <ClInclude Include="Headers\Renderer\RendererFrameBuffer.hpp" />
+    <ClInclude Include="Headers\Renderer\RendererImageView.hpp" />
+    <ClInclude Include="Headers\Renderer\RendererMesh.hpp" />
+    <ClInclude Include="Headers\Renderer\RendererPipeline.hpp" />
+    <ClInclude Include="Headers\Renderer\RendererShader.hpp" />
+    <ClInclude Include="Headers\Renderer\RendererShaderProgram.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="NAT_EngineDLL\NAT_EngineDLL.vcxproj">
+      <Project>{3492dbc9-ffc1-4c11-9f3e-88949d948058}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include="Headers\Core\Scene\GameObject.inl" />
+    <None Include="Headers\Maths\Maths.inl" />
+    <None Include="imgui.ini" />
+    <None Include="makefile" />
+    <None Include="ProjectSettings.bin" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
